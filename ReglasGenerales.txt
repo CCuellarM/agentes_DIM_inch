@@ -130,19 +130,18 @@ Si un campo no existe, poner NO ENCONTRADO.
 Traducciones (campos que deben entregarse traducidos según tu base de conocimiento)
 
 Los siguientes campos deben entregarse con la traducción (usar la tabla de traducción que tengas en la base de conocimiento):
-40 . Cod. lugar ingreso de las mercancías
 48 . Cod.País Exportador
 53 . Cod. país procedencia
 54 . Cod. Modo Transporte
 55 . Código de Bandera
 56 . Cod. Depto destino
-62 . Cod. Modalidad
 66 . Cod. país de origen
+67 . Cod. Acuerdo
 68 . Forma de pago de la importación
 69 . Tipo de importación
 70 . Cod. país compra
-73 . Código embalaje
 76 . Cod. unidad comercial
+85 . Código registro o licencia
 
 (La traducción debe aparecer en la misma celda del CSV junto al código, o reemplazando el código según tu patrón actual — respeta el formato que ya usas en producción.)
 
@@ -188,3 +187,4 @@ Dirección en una sola celda:
 
 Múltiples facturas en una sola celda:
 ..., "1492773 30/06/2025-1492772 30/06/2025-1492771 30/06/2025", ...
+
